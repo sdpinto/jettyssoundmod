@@ -1,0 +1,9 @@
+## Interface: 11302
+## Title: Jettys Sound Mod
+## Author: Jetboy
+## Version: 5.0
+## Notes: Play sounds!  Annoy your guildmates!
+## SavedVariables: JettyToggle
+
+JettysSounds.lua
+JettysSoundMod.lua

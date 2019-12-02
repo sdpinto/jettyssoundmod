@@ -1,7 +1,7 @@
 --------------------------------------
 -- Namespace and Versioning
 --------------------------------------
-local version = "5.10"
+local version = GetAddOnMetadata("JettysSoundMod", "Version") 
 local _, core = ...; -- Namespace
 
 --------------------------------------

@@ -1,7 +1,7 @@
 ## Interface: 11302
 ## Title: Jettys Sound Mod
 ## Author: Jetboy
-## Version: 5.20
+## Version: 5.10
 ## Notes: Play sounds!  Annoy your guildmates!
 ## SavedVariables: JettyToggle
 

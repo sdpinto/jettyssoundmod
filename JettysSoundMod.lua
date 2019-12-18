@@ -13,10 +13,15 @@ core.commands = {
 		core:Print("Version "..version.." toggled: "..core.Config:Toggle(true)) -- this is a function (no knowledge of Config object)
 	end,
 	
+	["toggleben"] = function ()
+		core:Print("!ben toggled: "..core.Config:ToggleBen(true)) -- this is a function (no knowledge of Config object)
+	end,
+	
 	["list"] = core.Config.List,
 	
 	["help"] = function()
 		core:Print("Version "..version.." is currently "..core.Config:Toggle(false))
+		core:Print("!ben is currently "..core.Config:ToggleBen(false))
 		core:Print("|cff00cc66/js toggle|r - toggles sounds on/off");
 		core:Print("|cff00cc66/js list|r - lists available keys");
 		core:Print("|cff00cc66/js help|r - shows this help info");

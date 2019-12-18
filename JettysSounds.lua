@@ -1174,6 +1174,19 @@ function Config:Toggle(bool)
 	return onoff
 end
 
+function Config:ToggleBen(bool)
+	if (bool) then
+		JettyBenToggle = not JettyBenToggle;
+	end
+	local onoff;
+	if ( JettyBenToggle) then
+		onoff = "|cff00cc66active|r";
+	else
+		onoff = "|cffcc0000inactive|r";
+	end
+	return onoff
+end
+
 function Config:List()
 	if JettyListFrame:IsShown() then
 		JettyListFrame:Hide()
